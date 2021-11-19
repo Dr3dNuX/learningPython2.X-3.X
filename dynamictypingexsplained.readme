@@ -12,5 +12,15 @@ when you assiane A to another varable or object to reffenece python garbage coll
 that memory the pointes A to the other object in memory
 
 
-Name Pointer Object
-A ---- > | "Hello World!"
+  Name   Pointer    Object
+A ---- >    |    "Hello World!"
+
+now if you assiane A to another object say A = 22
+then python will garbage collect the object "Hello World" if no other names are refferencing it and point A to the other object
+memeory space.
+
+so as you can see types live with objects not the varables.
+
+
+  Name   Pointer   Object
+A ---- >    |      int/22
