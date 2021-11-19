@@ -1,0 +1,16 @@
+python is a dynamicliy typed coding language this is diffent from languages like c or java
+basicly you dont declare your varables at the start of your code
+thats because types live with the objects not with the varables / names 
+
+basicly when you crate a new varable python spawns a new object with that type int bool string etc
+then uses a name that points to that object in memeory
+so A = "Hello World"
+
+"A" is the name aka the pointer and the "string Hello World" is an object with the string type
+
+when you assiane A to another varable or object to reffenece python garbage collects the other varable and recycles
+that memory the pointes A to the other object in memory
+
+
+Name Pointer Object
+A ---- > | "Hello World!"
